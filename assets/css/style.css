@@ -1,0 +1,1306 @@
+@font-face {
+    font-family: '404';
+    src: url('../fonts/404.eot?79236188');
+    src: url('../fonts/404.eot?79236188#iefix') format('embedded-opentype'),
+    url('../fonts/404.woff2?79236188') format('woff2'),
+    url('../fonts/404.woff?79236188') format('woff'),
+    url('../fonts/404.ttf?79236188') format('truetype'),
+    url('../fonts/404.svg?79236188#404') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/Vazir-Light.eot);
+    src: url(../fonts/Vazir-Light.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Vazir-Light.woff) format('woff'),
+    url(../fonts/Vazir-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Vazir.woff) format('woff'),
+    url(../fonts/Vazir.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/Vazir-Bold.eot);
+    src: url(../fonts/Vazir-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Vazir-Bold.woff) format('woff'),
+    url(../fonts/Vazir-Bold.ttf) format('truetype');
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "404";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .1em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-left-arrow:before {
+    content: '\e800';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0 !important;
+}
+
+a {
+    text-decoration: none;
+    outline: none !important;
+}
+
+input:focus, button:focus, select:focus, textarea:focus {
+    outline: none
+}
+
+body {
+    direction: rtl;
+    background: #404040
+}
+
+.max-width {
+    width: 1180px;
+    margin: auto
+}
+
+.container {
+    width: 100%
+}
+
+#header {
+    height: 30px;
+    margin-top: 30px
+}
+
+.logo {
+    display: block;
+    float: right
+}
+
+.logo img {
+    max-height: 30px
+}
+
+.back-to-website {
+    display: block;
+    float: left;
+    color: #fff;
+    width: 40px;
+    height: 30px;
+    padding-left: 5px;
+    transition: all .2s ease-out
+}
+
+.back-to-website:hover {
+    padding-left: 0;
+    color: #dae8ff
+}
+
+.back-to-website span {
+    width: 100%;
+    height: 30px;
+    display: block;
+    text-align: center;
+    font-size: 1.8em
+}
+
+.back-to-website span:before {
+    line-height: 30px
+}
+
+/*
+
+>>  CONTENT
+
+*/
+#content {
+    width: 355px;
+    border-radius: 2px;
+    margin: 90px auto 60px
+}
+
+.real-content {
+    width: 310px;
+    background: #fff;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: -40px;
+    margin-right: 22.5px;
+    box-shadow: 0 0 120px rgba(0, 0, 0, .3)
+}
+
+.real-content-icon {
+    width: 51px;
+    height: 51px;
+    margin: 45px auto 0
+}
+
+.login-icon {
+    background: url(../img/pages-icon.png) no-repeat top center
+}
+
+.register-icon {
+    background: url(../img/pages-icon.png) no-repeat center
+}
+
+.guest-icon {
+    background: url(../img/pages-icon.png) no-repeat center bottom
+}
+
+.real-content-title {
+    width: 90%;
+    height: 30px;
+    font: bold .94em/30px 'Vazir', Sans-serif;
+    color: #292929;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+    margin-bottom: 5px
+}
+
+.real-content-details {
+    display: block;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    color: #c3cede;
+    font: 200 .75em/25px 'Vazir', Sans-serif;
+    margin-bottom: 10px
+}
+
+.content-form {
+    width: 245px;
+    margin: auto
+}
+
+.content-form-wide {
+    width: 100%;
+}
+
+.content-form input[type=text], .content-form input[type=password], .content-form input[type=email], .content-form textarea,
+.big-content-form input[type=text], .big-content-form input[type=password], .big-content-form input[type=email], .big-content-form textarea {
+    display: block;
+    height: 35px;
+    background: none;
+    border: solid 1px #edf0f5;
+	border-radius: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	width:362px;
+    font: 500 .74em/50px 'Vazir', Sans-serif;
+    color: #a1afc5;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    transition: all .2s ease-in-out
+}
+
+.content-form input[type=text]::-webkit-input-placeholder, .content-form input[type=password]::-webkit-input-placeholder, .content-form input[type=email]::-webkit-input-placeholder, .content-form textarea::-webkit-input-placeholder,
+.big-content-form input[type=text]::-webkit-input-placeholder, .big-content-form input[type=password]::-webkit-input-placeholder, .big-content-form input[type=email]::-webkit-input-placeholder, .big-content-form textarea::-webkit-input-placeholder {
+    color: #a1afc5;
+}
+
+.content-form input[type=text]:-moz-placeholder, .content-form input[type=password]:-moz-placeholder, .content-form input[type=email]:-moz-placeholder, .content-form textarea:-moz-placeholder,
+.big-content-form input[type=text]:-moz-placeholder, .big-content-form input[type=password]:-moz-placeholder, .big-content-form input[type=email]:-moz-placeholder, .big-content-form textarea:-moz-placeholder {
+    color: #a1afc5;
+}
+
+.content-form input[type=text]::-moz-placeholder, .content-form input[type=password]::-moz-placeholder, .content-form input[type=email]::-moz-placeholder, .content-form textarea::-moz-placeholder,
+.big-content-form input[type=text]::-moz-placeholder, .big-content-form input[type=password]::-moz-placeholder, .big-content-form input[type=email]::-moz-placeholder, .big-content-form textarea::-moz-placeholder {
+    color: #a1afc5;
+}
+
+.content-form input[type=text]:-ms-input-placeholder, .content-form input[type=password]:-ms-input-placeholder, .content-form input[type=email]:-ms-input-placeholder, .content-form textarea:-ms-input-placeholder,
+.big-content-form input[type=text]:-ms-input-placeholder, .big-content-form input[type=password]:-ms-input-placeholder, .big-content-form input[type=email]:-ms-input-placeholder, .big-content-form textarea:-ms-input-placeholder {
+    color: #a1afc5;
+}
+
+.remember-checkbox {
+    display: block;
+    width: 100%
+}
+
+.remember-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.remember-checkbox input[type="checkbox"] + label {
+    font: 500 .74em/50px 'Vazir', Sans-serif;
+    color: #969da8;
+    cursor: pointer
+}
+
+.remember-checkbox input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 0;
+    vertical-align: middle;
+    margin-left: 10px;
+    background: url(../img/checkbox-pages.png) left top no-repeat;
+    cursor: pointer;
+}
+
+.remember-checkbox input[type="checkbox"]:checked + label span {
+    background: url(../img/checkbox-pages.png) right top no-repeat;
+}
+
+.content-form-submit {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    background: #eee;
+    color: #000;
+    font: 500 .8em/50px 'Vazir', Sans-serif;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 10px;
+    transition: .2s all ease-out
+}
+
+.login-submit, .pay-submit {
+    background: #78e0a5;
+    box-shadow: 0 10px 15px #f7f7f7;
+}
+
+.login-submit:hover, .pay-submit:hover {
+    box-shadow: 0 10px 25px #e8e8e8
+}
+
+.register-submit {
+    background: #5ab0fc;
+    box-shadow: 0 10px 15px #f7f7f7;
+}
+
+.register-submit:hover {
+    box-shadow: 0 10px 25px #e8e8e8
+}
+
+.failed-submit {
+    background: #EF6060;
+    box-shadow: 0 10px 15px #f7f7f7;
+}
+
+.failed-submit:hover {
+    box-shadow: 0 10px 25px #e8e8e8
+}
+
+.creat-new-account-login-page {
+    width: 100%;
+    text-align: center;
+    font: 500 .74em/50px 'Vazir', Sans-serif;
+    padding-top: 10px
+}
+
+.creat-new-account-login-page a, .forgot-password-link a {
+    color: #969da8;
+    transition: .2s all ease-out
+}
+
+.creat-new-account-login-page a:hover, .forgot-password-link a:hover {
+    color: #5db0fa
+}
+
+.forgot-password-link {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font: 500 .74em/30px 'Vazir', Sans-serif
+}
+
+.username, .password, .email, .textbox-captcha {
+    width: 100%;
+}
+
+.right-input, .left-input {
+    width: 117.5px;
+    float: right;
+    margin-left: 10px
+}
+
+.captcha {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px
+}
+
+.captcha-img {
+    width: 117.5px;
+    height: 50px;
+    float: right
+}
+
+.captcha-text {
+    width: 117.5px;
+    float: left
+}
+
+.guest-pau-submit {
+    margin-bottom: 20px
+}
+
+/*
+
+>> BIG CONTENT
+
+*/
+#big-content {
+    width: 725px;
+    margin: 75px auto 60px
+}
+
+#indirect-content {
+    width: 925px;
+    border-radius: 2px;
+    margin: 100px auto 60px
+}
+
+.big-real-content {
+    position: relative;
+    width: 680px;
+    background: #fff;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: -40px;
+    margin-right: 22.5px;
+    box-shadow: 0 0 120px rgba(0, 0, 0, .3);
+    overflow: hidden
+}
+
+.indirect-real-content {
+    position: relative;
+    width: 880px;
+    background: #fff;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: -40px;
+    margin-right: 22.5px;
+    box-shadow: 0 0 120px rgba(0, 0, 0, .3);
+    overflow: hidden;
+    min-height: 500px
+}
+
+.widget {
+    position: absolute;
+    right: 0;
+    width: 240px;
+    height: 100%;
+    border-left: solid 1px #f8faff;
+    background: #F9F9F9
+}
+
+.widget-center {
+    margin: 30px auto 0
+}
+
+.payment-time, .widget-center {
+    width: 182px
+}
+
+.person-img, .person-img img {
+    width: 168px;
+    height: 168px;
+    border-radius: 50%
+}
+
+.person-img {
+    margin-bottom: 20px
+}
+
+.indirect-user-logo {
+    box-shadow: 0 2px 6px #f7f7f7
+}
+
+.person-meta {
+    width: 100%
+}
+
+.pay-to {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #96a0b0;
+    font: 500 .75em/40px 'Vazir', Sans-serif
+}
+
+.person-name {
+    width: 100%;
+    height: 40px;
+    color: #292929;
+    font: bold .94em/40px 'Vazir', Sans-serif;
+    margin-bottom: 15px
+}
+
+.person-name > span {
+    display: block;
+    float: right;
+    height: 40px;
+    color: #78e0a5;
+    font-size: 1.1em;
+    margin-left: 5px
+}
+
+.person-name span:before {
+    line-height: 40px
+}
+
+.person-de {
+    width: 100%;
+    color: #8d96a6;
+    font: 200 .75em/25px 'Vazir', Sans-serif;
+    text-align: justify;
+    clear: both
+}
+
+.big-content-data {
+    width: 380px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px
+}
+
+.indirect-content-data {
+    width: 580px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px
+}
+
+.big-content-data-title {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #292929;
+    font: bold .94em/40px 'Vazir', Sans-serif
+}
+
+.big-content-data-details {
+    width: 100%;
+    height: 25px;
+    color: #96a0b0;
+    font: 200 .75em/25px 'Vazir', Sans-serif;
+    margin-bottom: 10px
+}
+
+.payment-number {
+    width: 100%;
+    height: 25px;
+    color: #96a0b0;
+    font: 500 .75em/25px 'Vazir', Sans-serif;
+    padding-top: 20px
+}
+
+.payment-number-no-padding {
+    padding: 0px;
+}
+
+.payment-number span {
+    margin-right: 10px
+}
+
+.payment-time {
+    position: absolute;
+    height: 25px;
+    color: #96a0b0;
+    font: 500 .75em/25px 'Vazir', Sans-serif;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+.big-content-form {
+    width: 100%
+}
+
+.big-content-personal-details, .big-content-personal-username, .big-content-personal-value, .big-content-personal-email, .big-content-personal-phone-nr {
+    width: 100%
+}
+
+.pay-submit {
+    margin-top: 30px
+}
+
+.easy-payments-value {
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    background: #EFEFEF url(../img/easy-paymets-value-icon.png) no-repeat right center;
+    margin-top: 19px
+}
+
+.easy-payments-value strong {
+    display: block;
+    float: left;
+    font: 200 .9em/50px 'Vazir', Sans-serif;
+    color: #8c94a0;
+    padding-left: 20px
+}
+
+.indirect-payment-position {
+    width: 100%;
+    height: 160px;
+    border-radius: 2px;
+    background: #f7f7f7;
+    overflow: hidden;
+    margin-bottom: 30px
+}
+
+.indirect-payment-position-inside {
+    width: 540px;
+    height: 100px;
+    background: #fff;
+    border-radius: 2px;
+    margin: 20px auto 0;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .3);
+    padding-top: 20px
+}
+
+.indirect-payment-position-inside-center {
+    width: 500px;
+    height: 80px;
+    margin: 0 auto 0;
+    background: url(../img/indirect-payment-icon.png) no-repeat right center;
+    position: relative
+}
+
+.indirect-payment-position-inside-data {
+    position: relative;
+    padding-top: 15px;
+    width: 420px;
+    height: 100%;
+    float: left
+}
+
+.indirect-payment-position-inside-data-meta {
+    height: 25px;
+    color: #292929;
+    font: 500 .8em/25px 'Vazir', Sans-serif
+}
+
+.indirect-payment-position-inside-data-value {
+    height: 30px;
+    color: #68be8d;
+    font: 500 1.1em/30px 'Vazir', Sans-serif
+}
+
+.indirect-payment-position-inside-data-meta, .indirect-payment-position-inside-data-value {
+    width: 350px
+}
+
+.indirect-payment-position-inside-data-pay-btn {
+    font: 500 0.75em/50px "Vazir", sans-serif;
+    display: block;
+    position: absolute;
+    width: auto;
+    min-width: 50px;
+    height: 50px;
+    background: #78e0a5;
+    border-radius: 2px;
+    left: 0;
+    top: 15px;
+    box-shadow: 0 10px 15px #f7f7f7;
+    transition: all .2s ease-in;
+    color: #fff
+}
+
+.indirect-payment-padding {
+    padding: 0 20px;
+}
+
+.indirect-payment-position-inside-data-pay-btn:hover {
+    box-shadow: 0 10px 25px #e8e8e8
+}
+
+.indirect-payment-position-inside-data-pay-btn span {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 1.1em;
+    text-align: center
+}
+
+.indirect-payment-position-inside-data-pay-btn span:before {
+    line-height: 50px
+}
+
+.indirect-payment-login-user {
+    width: 100%
+}
+
+.indirect-payment-login-user-text {
+    width: 100%;
+    color: #8d96a6;
+    font: 200 .75em/25px 'Vazir', Sans-serif;
+    text-align: justify
+}
+
+.indirect-payment-login-user-link {
+    display: inline-block;
+    padding: 0 35px;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    background: #5ab0fc;
+    color: #000;
+    font: 500 .8em/50px 'Vazir', Sans-serif;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 10px;
+    transition: all .2s ease-in;
+    box-shadow: 0 10px 15px #f7f7f7
+}
+
+.indirect-payment-login-user-link:hover {
+    box-shadow: 0 10px 25px #e8e8e8
+}
+
+/*
+
+>> FINAL CODE
+
+*/
+.margin-left-none {
+    margin-left: 0
+}
+
+/*
+
+>>  RESPONSIVE SMAL PAGES
+
+*/
+@media all and (max-width: 1200px) {
+    .max-width {
+        width: 90%
+    }
+}
+
+@media all and (max-width: 400px) {
+    #content {
+        width: 300px;
+        background: none
+    }
+
+    .real-content {
+        margin-right: 0
+    }
+}
+
+@media all and (max-width: 360px) {
+    #content {
+        width: 290px
+    }
+
+    .real-content {
+        width: 290px
+    }
+}
+
+/*
+
+>>  RESPONSIVE BIG PAGES
+
+*/
+@media all and (max-width: 768px) {
+    #big-content {
+        width: 625px
+    }
+
+    .big-real-content {
+        width: 580px
+    }
+
+    .big-content-data {
+        width: 280px
+    }
+}
+
+@media all and (max-width: 640px) {
+    #big-content {
+        width: 525px
+    }
+
+    .big-real-content {
+        width: 480px
+    }
+
+    .widget {
+        width: 180px
+    }
+
+    .payment-time, .widget-center {
+        width: 140px
+    }
+
+    .person-img, .person-img img {
+        width: 140px;
+        height: 140px
+    }
+
+    .person-name {
+        font-size: .75em
+    }
+
+    .person-de {
+        font-size: .7em
+    }
+
+    .big-content-data {
+        width: 250px
+    }
+}
+
+@media all and (max-width: 540px) {
+    #big-content {
+        width: 425px
+    }
+
+    .big-real-content {
+        width: 380px
+    }
+
+    .widget {
+        width: 150px
+    }
+
+    .payment-time, .widget-center {
+        width: 130px
+    }
+
+    .person-img, .person-img img {
+        width: 130px;
+        height: 130px
+    }
+
+    .pay-to {
+        height: 20px
+    }
+
+    .person-name {
+        height: 25px;
+        font-size: .7em;
+        margin-bottom: 10px
+    }
+
+    .person-de {
+        font-size: .68em
+    }
+
+    .big-content-data {
+        width: 180px;
+        margin-bottom: 20px
+    }
+
+    .big-content-data-title {
+        font-size: .75em;
+        height: 30px
+    }
+
+    .big-content-data-details {
+        font-size: .68em
+    }
+}
+
+@media all and (max-width: 440px) {
+    #big-content {
+        width: 320px
+    }
+
+    .big-real-content {
+        width: 270px
+    }
+
+    .widget {
+        width: 220px;
+        position: static;
+        margin: auto;
+        border-left: none
+    }
+
+    .payment-time, .widget-center {
+        width: 220px
+    }
+
+    .person-img, .person-img img {
+        width: 180px;
+        height: 180px;
+        margin: auto
+    }
+
+    .pay-to {
+        height: 20px
+    }
+
+    .person-name {
+        height: 25px;
+        font-size: .7em;
+        margin-bottom: 10px
+    }
+
+    .person-de {
+        font-size: .68em
+    }
+
+    .big-content-data {
+        width: 220px;
+        margin-bottom: 20px
+    }
+
+    .big-content-data-title {
+        font-size: .75em;
+        height: 30px
+    }
+
+    .big-content-data-details {
+        font-size: .68em
+    }
+}
+
+@media all and (max-width: 340px) {
+    #big-content {
+        width: 270px;
+        background: none
+    }
+
+    .big-real-content {
+        margin-right: 0
+    }
+}
+
+/* INDIRECT > RESPONSIVE */
+@media all and (max-width: 980px) {
+    #indirect-content {
+        width: 825px
+    }
+
+    .indirect-real-content {
+        width: 780px
+    }
+
+    .indirect-content-data {
+        width: 480px
+    }
+
+    .indirect-payment-position-padding {
+        height: 200px;
+    }
+
+    .indirect-payment-position-inside-padding {
+        height: 140px;
+    }
+
+    .indirect-payment-padding {
+        top: 80px;
+        width: 100%;
+    }
+
+    .indirect-payment-position-inside {
+        width: 440px;
+    }
+
+    .indirect-payment-position-inside-center {
+        width: 400px
+    }
+
+    .indirect-payment-position-inside-data {
+        width: 320px
+    }
+}
+
+@media all and (max-width: 840px) {
+    #indirect-content {
+        width: 725px
+    }
+
+    .indirect-real-content {
+        width: 680px
+    }
+
+    .indirect-content-data {
+        width: 380px
+    }
+
+    .indirect-payment-position-inside {
+        width: 340px
+    }
+
+    .indirect-payment-position-inside-center {
+        width: 300px
+    }
+
+    .indirect-payment-position-inside-data {
+        width: 220px
+    }
+
+    .indirect-payment-position-inside-data-meta {
+        font-size: .75em;
+        letter-spacing: -.5px
+    }
+}
+
+@media all and (max-width: 740px) {
+    #indirect-content {
+        width: 625px
+    }
+
+    .indirect-real-content {
+        width: 580px
+    }
+
+    .indirect-content-data {
+        width: 300px;
+        margin-left: 20px
+    }
+
+    .indirect-payment-position-inside {
+        width: 240px
+    }
+
+    .indirect-payment-position-inside-center {
+        width: 200px;
+        background-image: none
+    }
+
+    .indirect-payment-position-inside-data {
+        width: 100%
+    }
+
+    .indirect-payment-position-inside-data-pay-btn {
+        left: -40px
+    }
+
+    .indirect-payment-position-padding {
+        height: 190px;
+    }
+
+    .indirect-payment-position-inside-padding {
+        height: 114px;
+    }
+
+    .indirect-payment-padding {
+        left: -20px
+    }
+}
+
+@media all and (max-width: 640px) {
+    #indirect-content {
+        width: 525px
+    }
+
+    .indirect-real-content {
+        width: 480px
+    }
+
+    .indirect-content-data {
+        width: 260px;
+        margin-left: 20px
+    }
+
+    .indirect-payment-position-inside {
+        width: 240px
+    }
+
+    .indirect-payment-position-inside-center {
+        width: 200px;
+        background-image: none
+    }
+
+    .indirect-payment-position-inside-data {
+        width: 100%
+    }
+
+    .indirect-payment-position-inside-data-pay-btn {
+        left: -25px
+    }
+
+    .indirect-payment-padding {
+        left: -20px
+    }
+
+    .payment-number, .payment-time {
+        font-size: .68em
+    }
+}
+
+@media all and (max-width: 540px) {
+    #indirect-content {
+        width: 425px
+    }
+
+    .indirect-real-content {
+        width: 380px
+    }
+
+    .indirect-content-data {
+        width: 190px;
+        margin-left: 20px
+    }
+
+    .indirect-payment-position {
+        height: 200px
+    }
+
+    .indirect-payment-position-inside {
+        width: 160px;
+        height: 140px
+    }
+
+    .indirect-payment-position-inside-center {
+        width: 140px;
+        height: 140px
+    }
+
+    .indirect-payment-position-inside-data {
+        width: 100%;
+        height: 120px
+    }
+
+    .indirect-payment-position-inside-data-pay-btn {
+        left: 45px;
+        top: auto;
+        bottom: 0
+    }
+
+    .indirect-payment-padding {
+        left: -20px;
+        font-size: 0.7em;
+    }
+
+    .indirect-payment-position-padding {
+        height: 190px;
+    }
+
+    .indirect-payment-position-inside-padding {
+        height: 114px;
+    }
+
+    .indirect-payment-position-inside-data-meta, .indirect-payment-position-inside-data-value {
+        width: 100%;
+        text-align: center
+    }
+
+    .indirect-payment-position-inside-data-meta {
+        font-size: .6em
+    }
+
+    .indirect-payment-position-inside-data-value {
+        font-size: .8em
+    }
+}
+
+@media all and (max-width: 440px) {
+    #indirect-content {
+        width: 325px
+    }
+
+    .indirect-real-content {
+        width: 280px
+    }
+
+    .indirect-content-data {
+        width: 240px;
+        margin: 20px
+    }
+
+    .indirect-payment-position {
+        height: 200px
+    }
+
+    .indirect-payment-position-inside {
+        width: 200px;
+        height: 140px
+    }
+
+    .indirect-payment-position-inside-center {
+        width: 180px;
+        height: 140px
+    }
+
+    .indirect-payment-position-inside-data {
+        width: 100%;
+        height: 120px
+    }
+
+    .indirect-payment-position-inside-data-pay-btn {
+        left: 65px;
+        top: auto;
+        bottom: 0
+    }
+
+    .indirect-payment-padding {
+        left: -20px
+    }
+
+    .indirect-payment-position-inside-data-meta, .indirect-payment-position-inside-data-value {
+        width: 100%;
+        text-align: center
+    }
+
+    .indirect-payment-position-inside-data-meta {
+        font-size: .7em
+    }
+
+    .indirect-payment-position-inside-data-value {
+        font-size: .85em
+    }
+
+    .indirect-payment-position-padding {
+        height: 190px;
+    }
+
+    .indirect-payment-position-inside-padding {
+        height: 114px;
+    }
+
+    .payment-time {
+        position: static
+    }
+}
+
+@media all and (max-width: 360px) {
+    #indirect-content {
+        width: 280px;
+        background: none
+    }
+
+    .indirect-real-content {
+        width: 280px;
+        margin-right: 0
+    }
+}
+
+.has-error {
+    border-bottom-color: #FF6363 !important;
+}
+
+.has-error::-webkit-input-placeholder {
+    color: #FF6363 !important;
+}
+
+.has-error:-moz-placeholder { /* Firefox 18- */
+    color: #FF6363 !important;
+}
+
+.has-error::-moz-placeholder {  /* Firefox 19+ */
+    color: #FF6363 !important;
+}
+
+.has-error:-ms-input-placeholder {
+    color: #FF6363 !important;
+}
+
+.alert {
+    text-align: right;
+    padding: 10px;
+    margin: 10px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+.alert.alert-danger {
+    color: #da5151;
+    background: #ffeaea;
+    border: 1px solid #ffb7b7;
+    font-family: Vazir;
+
+}
+
+.alert.alert-success {
+    color: #68b23c;
+    background: #eeffda;
+    border: 1px solid #abd37d;
+    font-family: Vazir;
+}
+
+.text-danger,
+.error-message {
+    color: #ba2929;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-family: Vazir;
+}
+
+.error-message {
+    margin-top: 5px;
+}
+
+.ltr {
+    display: inline-block;
+    text-align: left;
+    direction: ltr;
+}
+
+.fleft {
+    float: left
+}
+
+.fright {
+    float: right
+}
+.center {
+    text-align:center;
+}
+.date {
+    font-size: 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.tahoma {
+    font-family: tahoma;
+}
+
+.form-login-index ul {
+    list-style: none;
+
+}
+
+.form-login-index img {
+    border-radius: 75px;
+    border: 1px solid #f7f7f7
+}
+
+.form-login-index ul li {
+    padding: 4px 7px;
+    margin: 2px 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-half {
+    display: inline-table;
+}
